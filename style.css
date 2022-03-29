@@ -1,3 +1,27 @@
-.wow {
-  width: 100px;
+:root{
+  --primary: #ca9465;
+  --light:#e3e1d3;
+  --dark:#262424;  
+}
+
+*{
+  marger: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'fira sans', sans-serif;
+  
+}
+.section1{
+   background: var(--primary);
+  
+}
+
+.header {
+  max-width: 100%;
+  
+/*   padding: 40px; */
+  display: flex;
+  align-item: center;
+  justify-content: space-around;
+  
 }
