@@ -5,23 +5,173 @@
 }
 
 *{
-  marger: 0;
   padding: 0;
-  box-sizing:border-box;
+  margin:0;
+ overflow-x: hidden;
   font-family: 'fira sans', sans-serif;
-  
+}
+*::before, *after{
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
 }
 .section1{
-   background: var(--primary);
+padding-left: 2rem;
+background: #ca9465;
+}
+
+.header{
+/*   border: 2px solid red; */
+  margin: 1rem auto;
+  
+}
+.navbar, ul{
+
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+.navbar ul li a, .logo{
+   color: #262424;
+}
+
+
+
+ul li+li{
+  padding-left: 1rem;
+/*   border: 2px solid pink; */
+  padding-right: 1rem;
+}
+
+ul a, .logo{
+  text-decoration: none;
+  list-style: none;
+}
+/* ..............section1 body................... */
+
+.section1 h1{
+width: 40%;
+ 
+margin: 5% 0;
+  font-size: 45px;
+}
+
+.section1 p{
+width: 60%;
+margin-bottom: 3%;
+  font-size: 20px;
+}
+
+.section1 button{
+width: 25%;
+  height: 3.5rem;
+margin-bottom: 3%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  background: #262424;
+}
+/* ...............section2 ................... */
+
+.section2{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f2e2cc;
+}
+.section2 button{
+  width: 20%;
+  height: 3.5rem;
+  padding:0 2rem;
+  font-size: 15px;
+  font-weight: bold;
+  color: #262424;
+  background: #fff;
+  border: 1px solid #262424;
+ margin: 1rem 0 3rem 0;
+}
+
+.sec__img{
+   
+  margin: 6% 0;
+    width: 70%;
+  
+}
+.sec__img img{
+ 
+    width: 100%;
+}
+
+/* ....................section3 ......................... */
+
+.section3 {
+
+ 
+}
+
+.section3 h2{
+width: 50%;
+  font-size: 35px;
+  
+  margin:auto auto;
+  text-align: center;
+  padding: 5rem 0 7rem 0;
+}
+/* ....................section4 ......................... */
+
+.section4{
+  display: flex;
+   justify-content: space-around;
+
+  background: #e3e1d3;
+}
+
+.sechalf2{
+  width:45%;
+   border: 2px solid #c53d26;
+  margin-left: 2rem;
+}
+.section41{
+  display: flex;
+  flex-direction: column;
+/*    justify-content: center; */
+  border: 2px solid #2b2727;
+  width:60%;
+}
+
+.sec4half, .sec41half{
+  display: flex;
+  
+/*    justify-content: center; */
+/*   border: 2px solid blue; */
+  font-size: 20px;
+
+}
+
+.sec4half,.sec41half{
+ 
+    border: 2px solid #398463;
+ margin:2rem 0 2rem 3rem ; 
   
 }
 
-.header {
-  max-width: 100%;
-  
-/*   padding: 40px; */
-  display: flex;
-  align-item: center;
-  justify-content: space-around;
-  
+.sechalf h2, p{
+ width: 80%;
+}
+
+.sechalf h2{
+padding-bottom: 1rem; 
+  color: red;
+  font-size: 20px;
+}
+.sechalf2 h2 {
+  width: 75%;
+ font-size:70px;
+   border: 2px solid #c53d26;
 }
